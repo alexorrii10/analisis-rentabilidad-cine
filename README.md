@@ -50,6 +50,7 @@ python src/clean.py
 jupyter notebook notebooks/analisis_peliculas.ipynb
 ```
 
-## Fuente
+## Fuente y licencia
 
-Dataset `movies.json` del repositorio público [vega-datasets](https://github.com/vega/vega-datasets). Revisa las condiciones de uso de la fuente antes de reutilizar los datos fuera de un contexto educativo.
+- **Datos:** `data/raw/movies.json` proviene del repositorio público [vega-datasets](https://github.com/vega/vega-datasets), que lo ofrece como material didáctico. Ni ese repositorio ni el propio archivo declaran el origen ni la licencia del dataset (la licencia BSD-3 de vega-datasets cubre solo su código). Por eso se usa aquí únicamente con fines educativos y de portfolio, sin ánimo comercial, y se retirará a petición de quien tenga los derechos.
+- **Código** (`src/`, `sql/`, `notebooks/`): licencia MIT, ver [LICENSE](LICENSE).
